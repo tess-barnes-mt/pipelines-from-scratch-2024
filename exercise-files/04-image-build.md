@@ -11,8 +11,9 @@ We need a pipeline that runs a docker command to build and tag the image. To con
 - Use the github web interface to find and start your new pipeline.
 
 ## Hints
-- Find out what the ubuntu-latest runner already has installed.
+- Think about which folder the step needs to run commands in
 - Refer back to docker-deep-dive for a reminder on the docker commands
+- How many plugins or actions do you need to do this? Fewer is better and it may be fewer than you think!
 
 ## Notes
 

@@ -16,13 +16,13 @@ We would like the pipeline to run on each push to `main`
 - What went wrong?
 - Create a **short-lived** [CLASSIC Personal Access Token](https://github.com/settings/tokens/new?scopes=read:packages) in github with read:packages permissions and copy the value
 - Update the token in the `.npmrc` file with this value.
-- Commit & push your changes
-- Use the github web interface to find the pipeline and check the pipeline now succeeds
+- Commit & push your changes (following the extra steps Github will give you)
+- Use the github web interface to find the pipeline and check if the pipeline now succeeds
+- Check your list of classic github PATs
 - Disable the pipeline.
-- Invalidate your github PAT
 
 ## Questions (write your answers in the notes section):
-- Which part of this is pipeline is insecure and why?
+- Which part of this pipeline is insecure and why?
 - What else could go wrong?
 
 ## Hints

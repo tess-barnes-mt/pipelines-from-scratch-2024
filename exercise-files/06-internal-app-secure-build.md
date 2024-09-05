@@ -19,7 +19,7 @@ We would like the pipeline to run on each push to `main` and also to be triggere
 - Add your PAT value to a github secret for your repository
 - Tigger a manual build of the pipeline and check it now succeeds
 - Disable the pipeline
-- Invalidate your github PAT
+- Delete your github PAT
 
 ## Questions (write your answers in the notes section):
 - Which part of this is pipeline is still not ideal and why?

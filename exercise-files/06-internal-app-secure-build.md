@@ -1,4 +1,4 @@
-# 6 - build an internal app - more securely
+# 6 - Build & test an internal app - more securely
 
 ## Instructions
 There is a node app provided in the `internal-app` folder. It gets all its dependencies from a private registry you need access to.

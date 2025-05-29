@@ -1,4 +1,4 @@
-# 4 - build a container image
+# 4 - Build a container image
 
 ## Instructions
 We have a node app we need to build into a container image before deployment.

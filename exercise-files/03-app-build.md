@@ -1,4 +1,4 @@
-# 3 - build a basic app
+# 3 - Build & test a basic app
 
 ## Instructions
 There is a basic node app provided in the `app` folder. It gets all its dependencies publically from nodejs.

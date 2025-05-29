@@ -1,4 +1,4 @@
-# 1 - link checker
+# 1 - Link checker
 
 ## Instructions
 Take a look at the circle ci pipeline in Madetech's learn repo.

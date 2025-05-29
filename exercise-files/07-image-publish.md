@@ -1,4 +1,4 @@
-# 7 - build & publish an image to a private registry
+# 7 - Build & publish an image to a private registry
 
 ## Instructions
 Now we are happy with the images we built in exercise 4, and know a lot more about using credentials securely.
@@ -15,7 +15,7 @@ For now (and the purposes of this exercise) we will need to trigger the pipeline
 - Consider which steps are important for all container registries and which ones are specific to Github Container Registry
 
 ## Hints
-- You could copy your exercise pipeline as a starting point
+- You could copy your exercise 4 pipeline as a starting point
 - Read the reference below for more information on the possible steps you can use
 
 ## Questions (write your answers in the notes section):

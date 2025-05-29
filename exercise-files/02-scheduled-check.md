@@ -1,4 +1,4 @@
-# 2 - scheduled pipelines
+# 2 - Scheduled pipelines
 
 ## Instructions
 We don't want to remember to check links on the Madetech Learn site, we want it to happen regularly automatically.

@@ -1,4 +1,4 @@
-# 5 - build an internal app
+# 5 - Build & test an internal app
 
 ## Instructions
 There is a basic node app provided in the `internal-app` folder. It gets all its dependencies from a private registry you need access to.

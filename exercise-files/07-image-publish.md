@@ -17,6 +17,8 @@ For now (and the purposes of this exercise) we will need to trigger the pipeline
 ## Hints
 - You could copy your exercise pipeline as a starting point
 - Read the reference below for more information on the possible steps you can use
+
+## Questions (write your answers in the notes section):
 - The examples in the reference use a new, more secure, way of handling credentials - what is it?
 
 ## References

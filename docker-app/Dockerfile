@@ -1,18 +1,25 @@
-ARG NODE_VERSION=20
+ARG NODE_VERSION=22
 
-FROM node:${NODE_VERSION}-alpine
+FROM node:${NODE_VERSION}-slim AS base
 
-ENV NODE_ENV=production
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
 
-WORKDIR /usr/src/app
+FROM base AS prod
 
-COPY package.json package.json
-COPY package-lock.json package-lock.json
+WORKDIR /app
+COPY package.json /app
+COPY pnpm-lock.yaml /app
+RUN pnpm install --prod --frozen-lockfile
 
-RUN npm ci --omit=dev
+COPY . /app
 
-COPY . .
+FROM base
+WORKDIR /app
+COPY --from=prod /app/node_modules /app/node_modules
+COPY --from=prod /app /app
 
 EXPOSE 3000
 
-CMD node src/index.js
+CMD [ "node", "index.js"]
